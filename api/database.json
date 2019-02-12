@@ -1,0 +1,628 @@
+{
+    "politicians": [
+        {
+            "id": 1,
+            "first_name": "George",
+            "last_name": "Washington"
+        },
+        {
+            "id": 2,
+            "first_name": "Thomas",
+            "last_name": "Jefferson"
+        },
+        {
+            "id": 3,
+            "first_name": "Abraham",
+            "last_name": "Lincoln"
+        },
+        {
+            "id": 4,
+            "first_name": "Theodore",
+            "last_name": "Roosevelt"
+        }
+    ],
+    "pacs": [
+        {
+            "id": 1,
+            "pac_name": "International Brotherhood Of Electrical Workers"
+        },
+        {
+            "id": 2,
+            "pac_name": "AT&T"
+        },
+        {
+            "id": 3,
+            "pac_name": "American Bankers Association"
+        },
+        {
+            "id": 4,
+            "pac_name": "American Beer Wholesalers Association"
+        },
+        {
+            "id": 5,
+            "pac_name": "National Automobile Dealers Association"
+        },
+        {
+            "id": 6,
+            "pac_name": "International Association of Firefighters"
+        },
+        {
+            "id": 7,
+            "pac_name": "International Union of Operating Engineers"
+        },
+        {
+            "id": 8,
+            "pac_name": "American Association of Justice"
+        }
+    ],
+    "bills": [
+        {
+            "id": 1,
+            "bill": "Financial Services and General Government, FY 2019"
+        },
+        {
+            "id": 2,
+            "bill": "Agriculture, FY 2019"
+        },
+        {
+            "id": 3,
+            "bill": "Interior and Environment, FY 2019"
+        },
+        {
+            "id": 4,
+            "bill": "Transportation and HUD, FY 2019"
+        },
+        {
+            "id": 5,
+            "bill": "Supplemental Appropriations, FY 2019"
+        },
+        {
+            "id": 6,
+            "bill": "FY 2019 Continuing Resolution, through February 8, 2019 (Contains Homeland Security)"
+        },
+        {
+            "id": 7,
+            "bill": "Consolidated Appropriations, FY 2019 (Contains Agriculture; Commerce, Justice, and Science; Financial Services; Interior and Environment; State and Foreign Operations; & Transportation and HUD"
+        }
+    ],
+    "corporations": [
+        {
+            "id": 1,
+            "corp_name": "Apple"
+        },
+        {
+            "id": 2,
+            "corp_name": "Exon Mobile"
+        },
+        {
+            "id": 3,
+            "corp_name": "McKesson"
+        },
+        {
+            "id": 4,
+            "corp_name": "United Health Group"
+        },
+        {
+            "id": 5,
+            "corp_name": "CVS Health"
+        },
+        {
+            "id": 6,
+            "corp_name": "General Motors"
+        },
+        {
+            "id": 7,
+            "corp_name": "Ford"
+        },
+        {
+            "id": 8,
+            "corp_name": "AT&T"
+        },
+        {
+            "id": 9,
+            "corp_name": "Walmart"
+        },
+        {
+            "id": 10,
+            "corp_name": "Birkshire Hathaway"
+        }
+    ],
+    "commercialInterests": [
+        {
+            "id": 1,
+            "interest": "Employment"
+        },
+        {
+            "id": 2,
+            "interest": "Energy"
+        },
+        {
+            "id": 3,
+            "interest": "Communications"
+        },
+        {
+            "id": 4,
+            "interest": "Natural Resources"
+        },
+        {
+            "id": 5,
+            "interest": "Taxes"
+        },
+        {
+            "id": 6,
+            "interest": "Zoning"
+        },
+        {
+            "id": 7,
+            "interest": "Health Care"
+        }
+    ],
+    "donationCorporationToPac": [
+        {
+            "id": 1,
+            "corporationId": 2,
+            "pacId": 5,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 4,
+            "pacId": 3,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 7,
+            "pacId": 5,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 2,
+            "pacId": 2,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 10,
+            "pacId": 3,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 4,
+            "pacId": 4,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 9,
+            "pacId": 2,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 8,
+            "pacId": 5,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 6,
+            "pacId": 6,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 5,
+            "pacId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 3,
+            "pacId": 7,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 8,
+            "pacId": 7,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 7,
+            "pacId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 1,
+            "corporationId": 9,
+            "pacId": 2,
+            "amount": "1,000,000"
+        }
+    ],
+    "donationPacToPolitician": [
+        {
+            "id": 1,
+            "pacId": 5,
+            "politicianId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 2,
+            "pacId": 3,
+            "politicianId": 2,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 3,
+            "pacId": 2,
+            "politicianId": 3,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 4,
+            "pacId": 1,
+            "politicianId": 4,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 5,
+            "pacId": 6,
+            "politicianId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 6,
+            "pacId": 3,
+            "politicianId": 2,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 7,
+            "pacId": 8,
+            "politicianId": 3,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 8,
+            "pacId": 7,
+            "politicianId": 4,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 9,
+            "pacId": 7,
+            "politicianId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 10,
+            "pacId": 4,
+            "politicianId": 2,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 11,
+            "pacId": 3,
+            "politicianId": 3,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 12,
+            "pacId": 2,
+            "politicianId": 4,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 13,
+            "pacId": 1,
+            "politicianId": 1,
+            "amount": "1,000,000"
+        },
+        {
+            "id": 14,
+            "pacId": 3,
+            "politicianId": 2,
+            "amount": "1,000,000"
+        }
+    ],
+    "politicianBills": [
+        {
+            "id": 1,
+            "politicianId": 1,
+            "billId": 1
+        },
+        {
+            "id": 2,
+            "politicianId": 2,
+            "billId": 2
+        },
+        {
+            "id":3 ,
+            "politicianId": 3,
+            "billId": 3
+        },
+        {
+            "id": 4,
+            "politicianId": 4,
+            "billId": 4
+        },
+        {
+            "id": 5,
+            "politicianId": 1,
+            "billId": 5
+        },
+        {
+            "id": 6,
+            "politicianId": 2,
+            "billId": 6
+        },
+        {
+            "id": 7,
+            "politicianId": 3,
+            "billId": 7
+        },
+        {
+            "id":8 ,
+            "politicianId": 4,
+            "billId": 1
+        },
+        {
+            "id": 9,
+            "politicianId": 1,
+            "billId": 2
+        },
+        {
+            "id": 10,
+            "politicianId": 2,
+            "billId": 3
+        },
+        {
+            "id": 11,
+            "politicianId": 3,
+            "billId": 4
+        },
+        {
+            "id": 12,
+            "politicianId": 4,
+            "billId": 5
+        },
+        {
+            "id": 13,
+            "politicianId": 1,
+            "billId": 6
+        },
+        {
+            "id": 14,
+            "politicianId": 2,
+            "billId": 7
+        }
+    ],
+    "billInterests": [
+        {
+            "id": 1,
+            "billId": 1,
+            "commercialInterestId":1
+        },
+        {
+            "id": 2,
+            "billId": 1,
+            "commercialInterestId":2
+        },
+        {
+            "id": 3,
+            "billId": 1,
+            "commercialInterestId":3
+        },
+        {
+            "id": 4,
+            "billId": 2,
+            "commercialInterestId":4
+        },
+        {
+            "id": 5,
+            "billId": 2,
+            "commercialInterestId":5
+        },
+        {
+            "id": 6,
+            "billId": 2,
+            "commercialInterestId":6
+        },
+        {
+            "id": 7,
+            "billId": 3,
+            "commercialInterestId":7
+        },
+        {
+            "id": 8,
+            "billId": 3,
+            "commercialInterestId":1
+        },
+        {
+            "id": 9,
+            "billId": 3,
+            "commercialInterestId":2
+        },
+        {
+            "id": 10,
+            "billId": 4,
+            "commercialInterestId":3
+        },
+        {
+            "id": 11,
+            "billId": 4,
+            "commercialInterestId":4
+        },
+        {
+            "id": 12,
+            "billId": 4,
+            "commercialInterestId":5
+        },
+        {
+            "id": 13,
+            "billId": 5,
+            "commercialInterestId":6
+        },
+        {
+            "id": 14,
+            "billId": 5,
+            "commercialInterestId":7
+        },
+        {
+            "id": 15,
+            "billId": 5,
+            "commercialInterestId":1
+        },
+        {
+            "id": 16,
+            "billId": 6,
+            "commercialInterestId":2
+        },
+        {
+            "id": 17,
+            "billId": 6,
+            "commercialInterestId":3
+        },
+        {
+            "id": 18,
+            "billId": 6,
+            "commercialInterestId":4
+        },
+        {
+            "id": 19,
+            "billId": 7,
+            "commercialInterestId":5
+        },
+        {
+            "id": 20,
+            "billId": 7,
+            "commercialInterestId":6
+        },
+        {
+            "id": 21,
+            "billId": 7,
+            "commercialInterestId":7
+        },
+        {
+            "id": 22,
+            "billId": 1,
+            "commercialInterestId":1
+        },
+        {
+            "id": 23,
+            "billId": 2,
+            "commercialInterestId":2
+        },
+        {
+            "id": 24,
+            "billId": 3,
+            "commercialInterestId":3
+        }
+    ],
+    "corporationsCommercialInterests": [
+        {
+            "id":1,
+            "corporationId": 1,
+            "billInterestId":1
+        },
+        {
+            "id":2,
+            "corporationId": 1,
+            "commercialInterestId":2
+        },
+        {
+            "id":3,
+            "corporationId": 2,
+            "commercialInterestId":3
+        },
+        {
+            "id":4,
+            "corporationId": 2,
+            "commercialInterestId":4
+        },
+        {
+            "id":5,
+            "corporationId": 3,
+            "commercialInterestId":5
+        },
+        {
+            "id":6,
+            "corporationId": 3,
+            "commercialInterestId":6
+        },
+        {
+            "id":7,
+            "corporationId": 4,
+            "commercialInterestId":7
+        },
+        {
+            "id":8,
+            "corporationId": 4,
+            "commercialInterestId":1
+        },
+        {
+            "id":9,
+            "corporationId": 5,
+            "commercialInterestId":2
+        },
+        {
+            "id":10,
+            "corporationId": 5,
+            "commercialInterestId":3
+        },
+        {
+            "id":11,
+            "corporationId": 6,
+            "commercialInterestId":4
+        },
+        {
+            "id":12,
+            "corporationId": 6,
+            "commercialInterestId":5
+        },
+        {
+            "id":13,
+            "corporationId": 7,
+            "commercialInterestId":6
+        },
+        {
+            "id":14,
+            "corporationId": 7,
+            "commercialInterestId":7
+        },
+        {
+            "id":15,
+            "corporationId": 8,
+            "commercialInterestId":1
+        },
+        {
+            "id":16,
+            "corporationId": 8,
+            "commercialInterestId":2
+        },
+        {
+            "id":17,
+            "corporationId": 9,
+            "commercialInterestId":3
+        },
+        {
+            "id":18,
+            "corporationId": 9,
+            "commercialInterestId":4
+        },
+        {
+            "id":19,
+            "corporationId": 10,
+            "commercialInterestId":5
+        },
+        {
+            "id":20,
+            "corporationId": 10,
+            "commercialInterestId":6
+        }
+    ]
+}
