@@ -58,31 +58,38 @@
     "bills": [
         {
             "id": 1,
-            "bill": "Financial Services and General Government, FY 2019"
+            "bill": "Financial Services and General Government, FY 2019",
+            "commercialInterestId": 1
         },
         {
             "id": 2,
-            "bill": "Agriculture, FY 2019"
+            "bill": "Agriculture, FY 2019",
+            "commercialInterestId": 3
         },
         {
             "id": 3,
-            "bill": "Interior and Environment, FY 2019"
+            "bill": "Interior and Environment, FY 2019",
+            "commercialInterestId": 3
         },
         {
             "id": 4,
-            "bill": "Transportation and HUD, FY 2019"
+            "bill": "Transportation and HUD, FY 2019",
+            "commercialInterestId": 4
         },
         {
             "id": 5,
-            "bill": "Supplemental Appropriations, FY 2019"
+            "bill": "Supplemental Appropriations, FY 2019",
+            "commercialInterestId": 4
         },
         {
             "id": 6,
-            "bill": "FY 2019 Continuing Resolution, through February 8, 2019 (Contains Homeland Security)"
+            "bill": "FY 2019 Continuing Resolution, through February 8, 2019",
+            "commercialInterestId": 5
         },
         {
             "id": 7,
-            "bill": "Consolidated Appropriations, FY 2019 (Contains Agriculture; Commerce, Justice, and Science; Financial Services; Interior and Environment; State and Foreign Operations; & Transportation and HUD"
+            "bill": "Consolidated Appropriations, FY 2019 (Contains Agriculture; Commerce, Justice, and Science; Financial Services; Interior and Environment; State and Foreign Operations; & Transportation and HUD",
+            "commercialInterestId": 2
         }
     ],
     "corporations": [
@@ -138,22 +145,14 @@
         },
         {
             "id": 3,
-            "interest": "Communications"
-        },
-        {
-            "id": 4,
             "interest": "Natural Resources"
         },
         {
-            "id": 5,
+            "id": 4,
             "interest": "Taxes"
         },
         {
-            "id": 6,
-            "interest": "Zoning"
-        },
-        {
-            "id": 7,
+            "id": 5,
             "interest": "Health Care"
         }
     ],
@@ -341,7 +340,7 @@
             "billId": 2
         },
         {
-            "id":3 ,
+            "id": 3,
             "politicianId": 3,
             "billId": 3
         },
@@ -366,7 +365,7 @@
             "billId": 7
         },
         {
-            "id":8 ,
+            "id": 8,
             "politicianId": 4,
             "billId": 1
         },
@@ -401,228 +400,106 @@
             "billId": 7
         }
     ],
-    "billInterests": [
+    "corporationsCommercialInterests": [
         {
             "id": 1,
-            "billId": 1,
-            "commercialInterestId":1
+            "corporationId": 1,
+            "commercialInterestId": 1
         },
         {
             "id": 2,
-            "billId": 1,
-            "commercialInterestId":2
+            "corporationId": 1,
+            "commercialInterestId": 2
         },
         {
             "id": 3,
-            "billId": 1,
-            "commercialInterestId":3
+            "corporationId": 2,
+            "commercialInterestId": 3
         },
         {
             "id": 4,
-            "billId": 2,
-            "commercialInterestId":4
+            "corporationId": 2,
+            "commercialInterestId": 4
         },
         {
             "id": 5,
-            "billId": 2,
-            "commercialInterestId":5
+            "corporationId": 3,
+            "commercialInterestId": 5
         },
         {
             "id": 6,
-            "billId": 2,
-            "commercialInterestId":6
+            "corporationId": 3,
+            "commercialInterestId":1
         },
         {
             "id": 7,
-            "billId": 3,
-            "commercialInterestId":7
+            "corporationId": 4,
+            "commercialInterestId":2
         },
         {
             "id": 8,
-            "billId": 3,
-            "commercialInterestId":1
+            "corporationId": 4,
+            "commercialInterestId":3
         },
         {
             "id": 9,
-            "billId": 3,
-            "commercialInterestId":2
+            "corporationId": 5,
+            "commercialInterestId":4
         },
         {
             "id": 10,
-            "billId": 4,
-            "commercialInterestId":3
+            "corporationId": 5,
+            "commercialInterestId":5
         },
         {
             "id": 11,
-            "billId": 4,
-            "commercialInterestId":4
+            "corporationId": 6,
+            "commercialInterestId":1
         },
         {
             "id": 12,
-            "billId": 4,
-            "commercialInterestId":5
+            "corporationId": 6,
+            "commercialInterestId":2
         },
         {
             "id": 13,
-            "billId": 5,
-            "commercialInterestId":6
+            "corporationId": 7,
+            "commercialInterestId":3
         },
         {
             "id": 14,
-            "billId": 5,
-            "commercialInterestId":7
+            "corporationId": 7,
+            "commercialInterestId":4
         },
         {
             "id": 15,
-            "billId": 5,
-            "commercialInterestId":1
+            "corporationId": 8,
+            "commercialInterestId":5
         },
         {
             "id": 16,
-            "billId": 6,
-            "commercialInterestId":2
+            "corporationId": 8,
+            "commercialInterestId":1
         },
         {
             "id": 17,
-            "billId": 6,
-            "commercialInterestId":3
+            "corporationId": 9,
+            "commercialInterestId":2
         },
         {
             "id": 18,
-            "billId": 6,
-            "commercialInterestId":4
+            "corporationId": 9,
+            "commercialInterestId":3
         },
         {
             "id": 19,
-            "billId": 7,
-            "commercialInterestId":5
+            "corporationId": 10,
+            "commercialInterestId":4
         },
         {
             "id": 20,
-            "billId": 7,
-            "commercialInterestId":6
-        },
-        {
-            "id": 21,
-            "billId": 7,
-            "commercialInterestId":7
-        },
-        {
-            "id": 22,
-            "billId": 1,
-            "commercialInterestId":1
-        },
-        {
-            "id": 23,
-            "billId": 2,
-            "commercialInterestId":2
-        },
-        {
-            "id": 24,
-            "billId": 3,
-            "commercialInterestId":3
-        }
-    ],
-    "corporationsCommercialInterests": [
-        {
-            "id":1,
-            "corporationId": 1,
-            "billInterestId":1
-        },
-        {
-            "id":2,
-            "corporationId": 1,
-            "commercialInterestId":2
-        },
-        {
-            "id":3,
-            "corporationId": 2,
-            "commercialInterestId":3
-        },
-        {
-            "id":4,
-            "corporationId": 2,
-            "commercialInterestId":4
-        },
-        {
-            "id":5,
-            "corporationId": 3,
-            "commercialInterestId":5
-        },
-        {
-            "id":6,
-            "corporationId": 3,
-            "commercialInterestId":6
-        },
-        {
-            "id":7,
-            "corporationId": 4,
-            "commercialInterestId":7
-        },
-        {
-            "id":8,
-            "corporationId": 4,
-            "commercialInterestId":1
-        },
-        {
-            "id":9,
-            "corporationId": 5,
-            "commercialInterestId":2
-        },
-        {
-            "id":10,
-            "corporationId": 5,
-            "commercialInterestId":3
-        },
-        {
-            "id":11,
-            "corporationId": 6,
-            "commercialInterestId":4
-        },
-        {
-            "id":12,
-            "corporationId": 6,
-            "commercialInterestId":5
-        },
-        {
-            "id":13,
-            "corporationId": 7,
-            "commercialInterestId":6
-        },
-        {
-            "id":14,
-            "corporationId": 7,
-            "commercialInterestId":7
-        },
-        {
-            "id":15,
-            "corporationId": 8,
-            "commercialInterestId":1
-        },
-        {
-            "id":16,
-            "corporationId": 8,
-            "commercialInterestId":2
-        },
-        {
-            "id":17,
-            "corporationId": 9,
-            "commercialInterestId":3
-        },
-        {
-            "id":18,
-            "corporationId": 9,
-            "commercialInterestId":4
-        },
-        {
-            "id":19,
             "corporationId": 10,
             "commercialInterestId":5
-        },
-        {
-            "id":20,
-            "corporationId": 10,
-            "commercialInterestId":6
         }
     ]
 }

@@ -1,3 +1,3 @@
-import getAllData from "./fetchData"
+import makeDataObjects from "./makeDataObjects"
 
-getAllData()
+makeDataObjects()
